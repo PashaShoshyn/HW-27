@@ -6,6 +6,8 @@
 
 }
 
+
+
 li{
     display: flex;
     margin-bottom: 30px;
@@ -33,10 +35,22 @@ ul{
     padding-right: 100px; 
     background-color: gray;
     position: absolute;
+    transform: translateX(-114%);
 }
-.div{
 
+
+
+
+
+.div:hover{
+    transform: translateX(0%);
 }
+
+.div:hover .menu{
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
 
 .menu{
     background-color: gray;
@@ -48,7 +62,5 @@ ul{
     top: 200px;
 }
 
-.menu:hover .div{
-   transform: translateX(160px);
-}
+
 
